@@ -1,10 +1,15 @@
 import React, { useState } from "react";
-import "./App.css";
+import "./global.css";
+import { Button } from "./components/ui/button";
 
 function App() {
   const [count, setCount] = useState(0);
 
-  return <>Portfolio</>;
+  return (
+    <div>
+      <Button>Click Me!!!</Button>
+    </div>
+  );
 }
 
 export default App;
